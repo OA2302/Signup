@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="tz.css"> 
+        <title>TEEZ TOUCH FASHION STORE</title>
+    </head>
+    <body>
+        <header>
+        
+         <p>   <img src="tz logo.jpg" alt="center-text" class="face1"></p>
+         <style>
+                .aligncenter {
+                    text-align: center;
+
+                }
+                </style>
+        </header>
+        <main>
+            
+            <h1><b>Sign up</b></h1>
+            <form method="post" action="/login">
+                <div>
+                    
+                    <label for="user_first_name" >First Name:</label><br>
+                    <input type="text" id="user_first_name" name="user_first_name" required minlength="5" spellcheck="true" placeholder="Smith">
+                </div>
+                <div>
+                    <label for="user_larst_name">Last Name:</label><br>
+                    <input type="text" id="user_first_name" name="user_first_name" placeholder="John" >
+                </div>
+                <div>
+                    <label for="user_email">Email:</label><br>
+                    <input type="email" name="user_email" id="user_email" placeholder="Example@gmail.com">
+                </div>
+                <div>
+                    <label for="user_password">Password:</label><br>
+                    <input type="password" id="user_password" name="user_password" required minlength="8" placeholder="Password">
+                </div> 
+                <div>
+                    <label for="date_bookings">Date_bookings</label><br>
+                    <input type="datetime-local" id="date_bookings" name="date_bookings">
+                </div>
+                <div>
+                    <label for="user_comfirm_password">Comfirm Password:</label><br>
+                    <input type="password" id="user_comfirm_password" name="user_comfirm_password" required placeholder="Comfirm_password">
+                </div>
+                <button type="submit" onclick="SubmitEvent">Submit</button>
+            </form>
+            <p class="log"> already have an account? <a href="mailto:">log in</a></p>
+        </main>
+        <footer>copyright <em><strong>OA2302</strong></em></footer></body>
+</html>
